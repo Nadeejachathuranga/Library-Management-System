@@ -1,0 +1,12 @@
+.TextFiled{
+    -fx-text-fill:white ;
+    -fx-prompt-text-fill:white ;
+}
+.SearchBar{
+    -fx-text-fill:white ;
+    -fx-prompt-text-fill:white ;
+    -fx-background-radius: 30px;
+    -fx-border-style: solid;
+    -fx-border-radius: 30px;
+    -fx-border-color: #ffa502;
+}

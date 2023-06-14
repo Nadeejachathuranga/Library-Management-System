@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1122.0" style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BookManageViewController">
+   <children>
+      <Label layoutX="18.0" layoutY="16.0" prefHeight="38.0" prefWidth="318.0" text="Book manage section" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnSelectUpdateBookInfo" layoutX="14.0" layoutY="521.0" onAction="#SelectUpdateBookInfoOnAction" prefHeight="25.0" prefWidth="118.0" ripplerFill="#2c3e50" stylesheets="@asset/styleSheet/buttonStyle.css" text="Update info" textFill="WHITE" />
+      <JFXButton fx:id="btnSelectNewCategory" layoutX="14.0" layoutY="484.0" onAction="#SelectNewCategoryOnAction" onMouseMoved="#AddNewBookCategoryHover" prefHeight="25.0" prefWidth="161.0" ripplerFill="#2c3e50" stylesheets="@asset/styleSheet/buttonStyle.css" text="Add a new category" textFill="WHITE" />
+      <JFXButton fx:id="btnSelectRemoveBook" layoutX="8.0" layoutY="559.0" onAction="#SelectRemoveBookOnAction" prefHeight="25.0" prefWidth="150.0" ripplerFill="#2c3e50" stylesheets="@asset/styleSheet/buttonStyle.css" text="Remove a book" textFill="WHITE" />
+      <JFXButton fx:id="btnAddNewBook" layoutX="14.0" layoutY="445.0" onAction="#AddNewBookOnAction" onMouseMoved="#AddNewBookHover" prefHeight="25.0" prefWidth="140.0" ripplerFill="#2c3e50" stylesheets="@asset/styleSheet/buttonStyle.css" text="Add a new book" textFill="WHITE" />
+      <JFXTextField focusColor="#ffa502" labelFloat="true" layoutX="226.0" layoutY="430.0" prefHeight="25.0" prefWidth="318.0" promptText="Book Name" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <JFXTextField focusColor="#ffa502" labelFloat="true" layoutX="226.0" layoutY="468.0" prefHeight="25.0" prefWidth="318.0" promptText="Author Name" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <JFXComboBox focusColor="#ffa502" labelFloat="true" layoutX="226.0" layoutY="508.0" prefHeight="25.0" prefWidth="210.0" promptText="Category" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <JFXComboBox focusColor="#ffa502" labelFloat="true" layoutX="226.0" layoutY="548.0" prefHeight="25.0" prefWidth="210.0" promptText="Supplier Name" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <JFXComboBox focusColor="#ffa502" labelFloat="true" layoutX="227.0" layoutY="588.0" prefHeight="25.0" prefWidth="210.0" promptText="Supplie Batch" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <JFXTextField focusColor="#ffa502" labelFloat="true" layoutX="655.0" layoutY="470.0" prefHeight="25.0" prefWidth="200.0" promptText="Quntity" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <JFXTextField focusColor="#ffa502" labelFloat="true" layoutX="655.0" layoutY="508.0" prefHeight="25.0" prefWidth="200.0" promptText="Pages" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <JFXTextField focusColor="#ffa502" labelFloat="true" layoutX="655.0" layoutY="548.0" prefHeight="25.0" prefWidth="200.0" promptText="Price" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <Label layoutX="655.0" layoutY="425.0" prefHeight="38.0" prefWidth="200.0" text="Book Id" textFill="WHITE" />
+      <JFXTextField focusColor="#ffa502" labelFloat="true" layoutX="655.0" layoutY="590.0" prefHeight="25.0" prefWidth="200.0" promptText="I S B N" styleClass="TextFiled" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#978e8e" />
+      <AnchorPane fx:id="BottomAnchorPane" layoutX="174.0" layoutY="357.0" prefHeight="329.0" prefWidth="831.0" style="-fx-background-color: #2c3e50;" />
+      <JFXButton fx:id="btnSelectBookSearch" layoutX="26.0" layoutY="405.0" onAction="#SelectBookSearchOnAction" onMouseMoved="#AddNewBookHover" prefHeight="25.0" prefWidth="98.0" ripplerFill="#2c3e50" stylesheets="@asset/styleSheet/buttonStyle.css" text="Search book" textFill="WHITE" />
+      <Label layoutX="242.0" layoutY="87.0" prefHeight="38.0" prefWidth="268.0" text="Similer Information about books" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="242.0" layoutY="133.0" prefHeight="38.0" prefWidth="52.0" text="Total " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="142.0" prefHeight="25.0" prefWidth="347.0" text="count of books" textFill="WHITE" />
+   </children>
+</AnchorPane>

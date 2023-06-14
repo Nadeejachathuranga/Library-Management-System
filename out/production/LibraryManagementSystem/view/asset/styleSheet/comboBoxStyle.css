@@ -1,0 +1,8 @@
+.ComboBox{
+    -fx-text-fill:white ;
+    -fx-prompt-text-fill:white ;
+}
+.ComboBox:focused{
+    -fx-text-fill:white ;
+    -fx-background-color: white;
+}

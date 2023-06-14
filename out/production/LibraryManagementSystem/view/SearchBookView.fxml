@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BookManageViewController">
+   <children>
+      <JFXTextField focusColor="#2c3e50" layoutX="346.0" layoutY="86.0" prefHeight="44.0" prefWidth="507.0" styleClass="SearchBar" stylesheets="@asset/styleSheet/textFiledStyle.css" unFocusColor="#2c3e50" />
+      <JFXRadioButton layoutX="872.0" layoutY="113.0" text="Name" textFill="WHITE" />
+      <JFXRadioButton layoutX="951.0" layoutY="113.0" text="Author" textFill="WHITE" />
+      <JFXRadioButton layoutX="1034.0" layoutY="113.0" text="id" textFill="WHITE" />
+      <Label layoutX="872.0" layoutY="74.0" prefHeight="38.0" prefWidth="200.0" text="Search by" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
