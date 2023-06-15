@@ -54,6 +54,7 @@ public class MemberManageViewController {
     public JFXTextField txtDeleteMemberId;
 
 
+
     public  void Navigate(String xml,AnchorPane pane) throws IOException {
         URL resource = getClass().getResource("/view/"+xml+".fxml");
         Parent load = FXMLLoader.load(resource);

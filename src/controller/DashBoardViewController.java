@@ -15,6 +15,7 @@ public class DashBoardViewController {
     public AnchorPane NavigateAnchorPane;
     public JFXButton btnBookManage;
     public JFXButton btnMemberManage;
+    public JFXButton btnSubscriptionManage;
 
 
     public void Navigate(String fxml) throws IOException {
@@ -34,5 +35,9 @@ public class DashBoardViewController {
 
     public void MemberManageOnAction(ActionEvent actionEvent) throws IOException {
         Navigate("MemberManageView.fxml");
+    }
+
+    public void SubscriptionManageOnAction(ActionEvent actionEvent) throws IOException {
+        Navigate("SubcriptionManageView.fxml");
     }
 }

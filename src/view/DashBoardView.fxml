@@ -8,7 +8,7 @@
      
       <JFXButton fx:id="btnBookManage" layoutX="33.0" layoutY="261.0" onAction="#BookManageOnAction" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Books" textFill="#fcfafa" />
       <JFXButton fx:id="btnMemberManage" layoutX="33.0" layoutY="309.0" onAction="#MemberManageOnAction" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Member" textFill="#fcfafa" />
-      <JFXButton layoutX="33.0" layoutY="359.0" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Subscription" textFill="#fcfafa" />
+      <JFXButton fx:id="btnSubscriptionManage" layoutX="33.0" layoutY="359.0" onAction="#SubscriptionManageOnAction" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Subscription" textFill="#fcfafa" />
       <JFXButton layoutX="33.0" layoutY="469.0" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Suppliers" textFill="#fcfafa" />
       <JFXButton layoutX="33.0" layoutY="518.0" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Employee" textFill="#fcfafa" />
       <JFXButton fx:id="btnBorrowBook" layoutX="33.0" layoutY="141.0" onAction="#BorrowingBookOnAction" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Borrow Book" textFill="#fcfafa" />
